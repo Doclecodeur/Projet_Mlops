@@ -45,7 +45,7 @@ jobs:
       - name: Lint (flake8)
         run: |
           flake8 . --max-line-length=100 \
-                   --ignore=E501,W503,E221,E241,E302,E305,E203,E272,E126,F401,W292 \
+                   --ignore=E501,W503,E221,E241,E302,E305,E203,E272,E126,F401,W292,W292 \
                    --exclude=venv,mlruns,.github,tests
 
       - name: Run tests
