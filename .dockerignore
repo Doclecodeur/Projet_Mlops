@@ -1,0 +1,48 @@
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Data (trop lourd)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docs
+README.md
+docs/
+
+# CI/CD
+.github/
+
+# Tests
+tests/
